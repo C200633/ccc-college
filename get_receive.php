@@ -1,8 +1,9 @@
 <?php
-$name = $_GET['name'];
-$address = $_GET['address'];
+	if(isset($_GET['name']) && isset($_GET['address'])){
+	    $name = $_GET['name'];
+	    $address = $_GET['address'];
+	}
 ?>
-
 <!DOCTYPE html>
 <html>
 <head>
